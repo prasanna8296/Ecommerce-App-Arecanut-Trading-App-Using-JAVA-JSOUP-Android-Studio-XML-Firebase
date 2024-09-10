@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/loggo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/loggo"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.ArecaNut"
+        tools:targetApi="31"
+        >
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerRegister"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerAddressView"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerAddressCart"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".selection"
+            android:exported="false" />
+        <activity
+            android:name=".Order"
+            android:exported="false" />
+        <activity android:name=".SellerDetails" />
+        <activity android:name=".SellerLogin" />
+
+        <!--        <activity-->
+<!--            android:name=".SellerLogin"-->
+<!--            android:exported="true" />-->
+<!--        <activity-->
+<!--            android:name=".SellerDetails"-->
+<!--            android:exported="true" />-->
+        <activity
+            android:name=".Seller"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerMyOrderAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerMyorderView"
+            android:exported="false" />
+        <activity
+            android:name=".UserAddress"
+            android:exported="false" />
+        <activity
+            android:name=".SellerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ManageOrder"
+            android:exported="false" />
+        <activity
+            android:name=".ShippingId"
+            android:exported="false" />
+        <activity
+            android:name=".ManageCartAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".CartItem"
+            android:exported="false" />
+        <activity
+            android:name=".SellerReviewCart"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewModel"
+            android:exported="false" />
+        <activity
+            android:name=".SellerProfileEdit"
+            android:exported="false" />
+        <activity
+            android:name=".SellerNotification"
+            android:exported="false" />
+        <activity
+            android:name=".SellerReview"
+            android:exported="false" />
+        <activity
+            android:name=".ManageSeller"
+            android:exported="false" />
+        <activity
+            android:name=".OrderModel"
+            android:exported="false" />
+        <activity
+            android:name=".MainAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".MainModel"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerHome"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerCart"
+            android:exported="false" />
+        <activity
+            android:name=".CartAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".CheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".PredictionManager"
+            android:exported="false" />
+        <activity
+            android:name=".WebScraper"
+            android:exported="false" />
+        <activity
+            android:name=".PriceData"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerNotification"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerDetails"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerShipping"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerAddress"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerMyOrder"
+            android:exported="false" />
+        <activity
+            android:name=".ProductAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomePage"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+        </activity>
+
+<!--        <activity-->
+<!--            android:name=".SellerDetails"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+<!--                <activity-->
+<!--            android:name=".SellerLogin"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name=".SellerDetails"-->
+<!--            android:exported="true"  >-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--           <meta-data-->
+<!--               android:name="com.razorpay.ApiKey"-->
+<!--               android:value="rzp_test_xMUa2F16OlbtDj"/>-->
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+
+</manifest>

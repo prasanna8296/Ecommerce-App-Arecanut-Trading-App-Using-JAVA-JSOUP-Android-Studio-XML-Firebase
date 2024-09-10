@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="@color/g_blue100"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="238dp"
+        android:padding="0dp">
+
+
+        <!--        <de.hdodenhof.circleimageview.CircleImageView-->
+        <!--            android:id="@+id/img1"-->
+        <!--            android:layout_width="136dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_marginTop="0dp"-->
+        <!--            android:src="@mipmap/ic_launcher"-->
+        <!--            app:civ_border_color="#FF000000"-->
+        <!--            app:civ_border_width="2dp" />-->
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="163dp"
+            android:layout_height="155dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/g_line"
+            app:srcCompat="@drawable/baseline_image_24" />
+
+        <TextView
+            android:id="@+id/categorytext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <!--        <TextView-->
+<!--            android:id="@+id/textdescription"-->
+<!--            android:layout_width="225dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/pricetext"-->
+<!--            android:layout_marginStart="177dp"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="3dp"-->
+<!--            android:inputType="textShortMessage"-->
+<!--            android:text="Detailed Discription"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="20sp"-->
+<!--            />-->
+
+
+        <!--        <TextView-->
+<!--            android:id="@+id/gradetxt"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/categorytext"-->
+<!--            android:layout_marginLeft="72dp"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:layout_toRightOf="@id/editTextText4"-->
+<!--            android:inputType="none"-->
+<!--            android:text="grade"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="18sp" />-->
+
+        <TextView
+            android:id="@+id/qualitytext"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/categorytext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="266dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="7dp"
+            android:layout_toRightOf="@id/editTextText4"
+            android:text="Quality"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/quantitytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qualitytext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/editTextText5"
+            android:text="Quantity"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/spinner2txt"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qualitytext"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/editTextText5"
+            android:text="gram"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/pricetext"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quantitytext"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/editTextText6"
+            android:text="Price"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/editTextText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_toRightOf="@id/img1"
+            android:inputType="none"
+            android:text="Category:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/editTextText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextText4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="11dp"
+            android:layout_toRightOf="@id/img1"
+            android:inputType="none"
+            android:text="Quantity:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/editTextText6"
+            android:layout_width="50dp"
+            android:layout_height="17dp"
+            android:layout_below="@id/editTextText5"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="11dp"
+            android:layout_toRightOf="@id/img1"
+            android:inputType="none"
+            android:text="Price:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textdescription"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="223dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="59dp"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textdescription"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="58dp"
+
+            android:layout_marginTop="17dp"
+            android:text="Edit" />
+
+        <TextView
+            android:id="@+id/textdescription"
+            android:layout_width="207dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="191dp"
+            android:layout_marginTop="121dp"
+            android:layout_marginEnd="6dp"
+            android:text="Description:"
+            android:textSize="16dp"
+
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

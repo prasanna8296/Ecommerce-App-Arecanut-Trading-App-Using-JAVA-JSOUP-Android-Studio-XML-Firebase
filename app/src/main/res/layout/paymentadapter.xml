@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:background="@drawable/r11"
+
+        android:padding="0dp">
+
+
+        <TextView
+            android:id="@+id/cardnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="151dp"
+
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="127dp"
+            android:text="cardnumber"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expdate"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="151dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginBottom="74dp"
+            android:inputType="number|datetime"
+            android:text="expire date"
+            android:textColor="#FBFBFB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/cvv"
+            android:layout_width="96dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="302dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="76dp"
+            android:text="CVV"
+            android:textColor="#F8F7F7"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="237dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginBottom="3dp"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="249dp"
+            android:layout_marginBottom="0dp"
+            android:text="Edit" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

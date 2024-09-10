@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="297dp"
+        android:layout_height="362dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/lavender_border"
+        android:backgroundTint="@color/teal_200"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468">
+
+        <EditText
+            android:id="@+id/loginView"
+            android:layout_width="264dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/g_line"
+            android:focusable="true"
+            android:hint="Enter the Email"
+            android:inputType="textFilter"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/loginView2"
+            android:layout_width="257dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/g_line"
+            android:focusable="true"
+            android:hint="Enter the Password"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/g_orange_yellow"
+            android:text="Login"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+        <TextView
+            android:id="@+id/signupRedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:inputType="none"
+            android:padding="8dp"
+            android:text="Not yet registered? Sign Up"
+            android:textColor="@color/lavender"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

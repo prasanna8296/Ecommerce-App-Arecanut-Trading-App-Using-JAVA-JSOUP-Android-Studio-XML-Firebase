@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ArecaNut</string>
+    <string name="default_web_client_id">777546761890-g9vu32fqgnjunp03eh6vvh81in85qr3e.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinner_options">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+</resources>

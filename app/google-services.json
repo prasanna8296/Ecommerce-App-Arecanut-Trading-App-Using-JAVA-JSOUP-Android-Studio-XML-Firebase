@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "777546761890",
+    "firebase_url": "https://arecanut-e05df-default-rtdb.firebaseio.com",
+    "project_id": "arecanut-e05df",
+    "storage_bucket": "arecanut-e05df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777546761890:android:b0c3a6f3dce2cfc9f1b9fb",
+        "android_client_info": {
+          "package_name": "com.example.arecanut"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe8BYB7Afb1fXExjj6zFemb-YEScZVCMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

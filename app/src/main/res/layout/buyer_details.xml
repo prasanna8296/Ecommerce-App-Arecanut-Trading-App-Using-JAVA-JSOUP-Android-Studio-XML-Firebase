@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    android:id="@+id/parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="221dp">
+
+                <ImageView
+                    android:id="@+id/mainImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/baseline_image_24" />
+            </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/rounded"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titletxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:fontFamily="@font/nunito_bold"
+                android:maxLines="1"
+                android:text="Title Name"
+                android:textColor="#7900D9"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/qualitytxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:fontFamily="@font/nunito_bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:text="Quality"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/quantitytxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:text="Quantity"/>
+
+                <TextView
+                    android:id="@+id/spinner2txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Gram"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/editpricetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:inputType="none"
+                    android:fontFamily="@font/nunito_bold"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:text="Rs:"/>
+
+                <TextView
+                    android:id="@+id/pricetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Price"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:layout_marginStart="10dp"/>/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/addToCartButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add To Cart"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_bg"/>
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/rounded"
+                android:padding="20dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/editdiscription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Description:"
+                    android:textColor="#7900D9"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txtdescript"
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:maxLines="1"
+                    android:text="Description:"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

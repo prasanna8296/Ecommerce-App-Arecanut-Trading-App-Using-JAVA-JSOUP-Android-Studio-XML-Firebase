@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    android:id="@+id/parent"
+    android:orientation="horizontal"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<TextView
+        android:id="@+id/edittextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/purple_200"
+        android:inputType="none"
+        android:text="Shipping Details"
+        android:textColor="@color/g_white"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        >
+
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="342dp"
+        android:layout_height="31dp"
+        android:inputType="none"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="576dp"
+        android:text="Add Order Id:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/shipid"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+android:focusable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="596dp"
+        android:background="@color/g_card_background"
+        android:inputType="textMultiLine"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="132dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:layout_marginBottom="402dp"
+        android:text="ADD" />
+
+</RelativeLayout>

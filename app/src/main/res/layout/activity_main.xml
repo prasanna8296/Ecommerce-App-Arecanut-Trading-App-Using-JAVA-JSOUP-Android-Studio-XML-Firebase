@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/g_orange_yellow"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomAppBar"
+
+        >
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+             />
+
+
+        <!--        <androidx.appcompat.widget.SearchView-->
+<!--            android:id="@+id/searchview"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="8dp"-->
+
+<!--            android:background="@color/g_line"-->
+<!--            app:iconifiedByDefault="false"-->
+<!--            app:queryHint="Search Here...." />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/cartbutton"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginEnd="0dp"-->
+<!--            android:backgroundTint="@color/g_white"-->
+<!--            android:background="@drawable/shopping_cart_24"-->
+<!--            android:focusableInTouchMode="true"-->
+<!--            />-->
+
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+
+<!--            android:id="@+id/rv"-->
+<!--            android:layout_width="415dp"-->
+<!--            android:layout_height="670dp"-->
+<!--            android:layout_below="@+id/searchview"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="-11dp"-->
+<!--            android:layout_marginEnd="-4dp"-->
+<!--            android:layout_marginBottom="0dp" />-->
+
+<!--        &lt;!&ndash; Your FrameLayout Content Goes Here &ndash;&gt;-->
+
+
+<!--        &lt;!&ndash; RecyclerView &ndash;&gt;-->
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/g_card_background"
+        android:backgroundTint="@color/teal_700"
+        app:fabCradleMargin="10dp"
+        android:padding="10dp"
+        app:fabCradleRoundedCornerRadius="30dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:baselineAlignBottom="true"
+            android:src="@drawable/baseline_home_24"
+            android:text="Home"
+            app:layout_anchor="@+id/bottomAppBar"
+            app:layout_anchorGravity="center_horizontal"
+            app:maxImageSize="30dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/sellbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/teal_200"
+            android:baselineAlignBottom="true"
+            android:src="@drawable/outline_add_circle_24"
+            android:text="SELL"
+            app:layout_anchor="@+id/bottomAppBar"
+            android:layout_marginLeft="110dp"
+            app:layout_anchorGravity="center"
+            app:maxImageSize="40dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/profilebuttonid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginLeft="90dp"
+            android:baselineAlignBottom="true"
+            android:src="@drawable/baseline_person_24"
+            android:text="PROFILE"
+            app:layout_anchor="@id/bottomAppBar"
+            app:layout_anchorGravity="center_vertical"
+            app:maxImageSize="40dp"
+            tools:ignore="SpeakableTextPresentCheck"
+           />
+
+
+
+
+
+        <!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/bottomNavigationView"-->
+        <!--            android:layout_marginEnd="20dp"-->
+        <!--            app:labelVisibilityMode="labeled"-->
+        <!--            android:background="@android:color/transparent"-->
+        <!--            app:menu="@menu/bottom_menu"/>-->
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
